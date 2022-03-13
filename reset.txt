@@ -1,0 +1,19 @@
+
+
+        To reset the program with new database
+        delete existing databases (files)
+        run this code in main
+        then delete the code (reset databases)
+
+        // initial
+        SignUpLogIn visit = new SignUpLogIn();
+        Admin admin = new Admin();
+        UserIO usr = new UserIO();
+        admin.setAdmin();
+
+        // reset databases
+        ArrayList<Admin> adminList = new ArrayList<>();
+        ArrayList<BookIO> bookList = new ArrayList<>();
+        ArrayList<UserIO> userList = new ArrayList<>();
+        admin.saveBooksInFile(bookList);
+        usr.saveUserInFile(userList);
