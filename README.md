@@ -26,4 +26,4 @@ SignUpLogIn class responsible for user login and signup operation.
 * Enhance the time complexity for some functions
 * Add new features
 * Apply some constraints in some functions (e.g. setters)
-* Make the system GUI instead of console
+* Make the system GUI
